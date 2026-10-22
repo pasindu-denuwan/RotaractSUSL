@@ -3,6 +3,7 @@ import { images } from '../../assets/images';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+
 import MotionWrapper from '../components/MotionWrapper';
 
 export default function About() {
@@ -10,6 +11,7 @@ export default function About() {
         <div className="bg-white min-h-screen relative">
             <Navbar currentPage="about" />
 
+            
             {/* Hero Header */}
             <section className="px-4 py-8 lg:py-12 pt-4 lg:pt-8">
                 <MotionWrapper className="max-w-[1440px] mx-auto px-8">
@@ -27,6 +29,7 @@ export default function About() {
                 </MotionWrapper>
             </section>
 
+            
             {/* What is Rotaract? */}
             <section className="px-4 py-12 lg:py-16">
                 <MotionWrapper className="max-w-5xl mx-auto text-center">
@@ -53,6 +56,7 @@ export default function About() {
                         </p>
                     </div>
 
+                    
                     {/* 4-Way Test */}
                     <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                         <h3 className="font-playfair font-bold text-2xl text-gray-900 mb-6 text-center">
@@ -73,6 +77,7 @@ export default function About() {
                 </MotionWrapper>
             </section>
 
+            
             {/* Goals */}
             <section className="px-4 py-16 lg:py-24">
                 <MotionWrapper className="max-w-5xl mx-auto">
@@ -104,4 +109,5 @@ export default function About() {
             <Footer />
         </div>
     );
+    
 }
